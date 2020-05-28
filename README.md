@@ -3,7 +3,7 @@
 - MongoDB client saves nested json review list for each movie
 - MongoDB client exposing data ignostic interface
 
-# External packages:
+# External packages
 - Official golang MongoDB driver: "go.mongodb.org/mongo-driver/mongo"
 - HTTP web api framework using Gin
 
