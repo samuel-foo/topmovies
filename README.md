@@ -1,6 +1,6 @@
 # Highlights
 - Clean REST APIs design
-- MongoDB client save nested json review list for each movie
+- MongoDB client saves nested json review list for each movie
 - MongoDB client exposing data ignostic interface
 
 # External packages:
