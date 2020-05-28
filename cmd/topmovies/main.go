@@ -4,6 +4,7 @@ import (
 	"context"
 	"log"
 	"net/url"
+	"topmovies"
 	"topmovies/service/mongodb"
 
 	"github.com/gin-gonic/gin"
@@ -26,7 +27,7 @@ func main() {
 	}
 	defer mongoClient.Disconnect(ctx)
 
-	movieHandler := NewMovieHandler(mongoClient)
+	movieHandler := topmovies.NewMovieHandler(mongoClient)
 
 	router := gin.Default()
 	router.GET("/top-movies/movies", movieHandler.GetMovies)
